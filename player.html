@@ -2,66 +2,195 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Audio player</title>
+    <meta charset="UTF-8">
+    <title>Audio player</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <style>
-	main {
-		width: 35em;
-		font-family: sans-serif;
-	}
-
+    main {
+        width: 35em;
+        font-family: sans-serif;
+    }
 </style>
 
 <body>
-	<main>
-		<!-- dummy content from http://slipsum.com/ -->
-		<!-- start slipsum code -->
+    <main>
+        <!-- dummy content from http://slipsum.com/ -->
 
-		<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's
-			keeper and the finder of lost children. </p>
+        <h1>Top 6 Global on Spotify</h1>
 
-		<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and
-			become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
 
-		<p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where
-			my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>
 
-		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cum nulla natus dolorem provident, vitae deserunt neque praesentium minus, expedita deleniti! Nemo alias, adipisci recusandae eveniet cum expedita. Omnis, ipsa.</div>
-		<div>Nostrum praesentium doloribus iure quam similique quas, quasi, numquam dicta. At non culpa quod quibusdam aliquid in, sapiente, veniam natus eius harum repudiandae error molestiae molestias. Hic eligendi cumque dolorum!</div>
-		<div>In iusto veritatis asperiores similique esse sequi enim? Sed culpa perferendis quos. Excepturi, repellat repellendus nobis quasi in id voluptas vel alias. Repellat omnis minima animi natus, magni odio impedit!</div>
-		<div>Molestiae quis nobis optio laboriosam reprehenderit hic expedita facilis dolores eos voluptatibus magnam amet dolorem excepturi sapiente, illum neque exercitationem eligendi nisi non dignissimos qui! Non voluptate magnam, sunt ea.</div>
-		<div>Harum id tenetur perspiciatis, iure, quod quasi similique eveniet iste repellendus officia incidunt, delectus nulla facilis? Maiores, laudantium nam officia veritatis commodi harum repellendus amet rem hic, iste est labore!</div>
-		<div>Qui totam deserunt laborum eveniet, laboriosam, sit quasi asperiores impedit. Eum facilis possimus aliquid impedit neque omnis reprehenderit voluptatibus, eligendi quibusdam quod quasi excepturi praesentium magni illo deleniti, accusantium quis.</div>
-		<div>Autem at recusandae possimus cumque odit, molestiae voluptate expedita eos tempore doloremque, assumenda delectus maiores iure nihil! Accusantium in esse impedit laborum amet excepturi. Asperiores aliquam ab laboriosam architecto laudantium.</div>
-		<div>Voluptatum ratione error officiis veritatis, perspiciatis mollitia nemo quasi, nobis aspernatur illo? Impedit tenetur cum eius pariatur aperiam nemo, quam doloribus numquam maxime! Dolor fugit id ullam, molestias incidunt repellendus!</div>
+        <!--======= FIRST  =======-->
+        <div class="song_wrapper">
+            <section class="song">
+                <h2 class="list">1.</h2>
+                <h2>Don't Start Now</h2>
+                <h4>by Dua Lipa</h4>
 
-		<!-- end slipsum code -->
+                <div id="lyd">
+                    <audio id="myaudio">
+                        <source src="media/Dua%20Lipa%20-%20Don't%20Start%20Now.mp3" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <button>&#x1f50a; Click and listen </button>
+                </div>
 
-		<div id="lyd">
-			<audio id="myaudio">
-				<source src="media/death-of-queen-dagmar.mp3" type="audio/wav">
-				Your browser does not support the audio element.
-			</audio>
-			<button>Sound on &#x1f50a; </button>
-		</div>
+                <p>If you don't wanna see me
+                    <br>
+                    Did a full 180, crazy
+                    <br>
+                    Thinking 'bout the way I was
+                    <br>
+                    Did the heartbreak change me? Maybe
+                    <br>
+                    But look at where I ended up
+                    <br>
+                    I'm all good already
+                    <br>
+                    So moved on, it's scary
+                    <br>
+                    I'm not where you left me at all, so</p>
+            </section>
 
-		<!-- start slipsum code -->
 
-		<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's
-			keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee. </p>
 
-		<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and
-			become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
+            <section class="video">
+                <div id="synlig">
+                    <div id="ytplayer">
+                        
+                    </div>
+                </div>
+            </section>
 
-		<p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where
-			my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>
+        </div>
 
-		<!-- end slipsum code -->
-	</main>
 
-	<script src="js/audio.js"></script>
-</body>
 
-</html>
+        <!--======= SECOND  =======-->
+        <section class="song">
+            <h2 class="list">2.</h2>
+            <h2>Señorita</h2>
+            <h4>by Shawn Mendes and Camila Cabello</h4>
+
+            <div id="lyd">
+                <audio id="myaudio">
+                    <source src="media/Shawn%20Mendes,%20Camila%20Cabello%20-%20Se%C3%B1orita.mp3" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <button>&#x1f50a; Click and listen </button>
+            </div>
+
+            <p>I love it when you call me señorita
+                <br>
+                I wish I could pretend I didn't need ya
+                <br>
+                But every touch is ooh la la la
+                <br>
+                It's true, la la la
+                <br>
+                Ooh, I should be running
+                <br>
+                Ooh, you keep me coming for you</p>
+        </section>
+
+
+
+        <!--======= THRID  =======-->
+        <section class="song">
+            <h2 class="list">3.</h2>
+            <h2>Liar</h2>
+            <h4>by Camila Cabello</h4>
+
+            <div id="lyd">
+                <audio id="myaudio">
+                    <source src="media/Shawn%20Mendes,%20Camila%20Cabello%20-%20Se%C3%B1orita.mp3" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <button>&#x1f50a; Click and listen </button>
+            </div>
+
+            <p>I don't care if you're here
+                <br>
+                Or if you're not alone
+                <br>
+                I don't care, it's been too long
+                <br>
+                It's kinda like we didn't happen
+                <br>
+                The way that your lips move
+                <br>
+                The way you whisper slow
+                <br>
+                I don't care, it's good as gone (uh)</p>
+        </section>
+
+
+
+        <!--======= FOURTH  =======-->
+        <section class="song">
+            <h2 class="list">4.</h2>
+            <h2>Yummy</h2>
+            <h4>by Justin Bieber</h4>
+
+            <div id="lyd">
+                <audio id="myaudio">
+                    <source src="media/Dua%20Lipa%20-%20Don't%20Start%20Now.mp3" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <button>&#x1f50a; Click and listen </button>
+            </div>
+
+            <p>Yeah, you got that yummy, yum
+                <br>
+                That yummy, yum
+                <br>
+                That yummy, yummy
+                <br>
+                Yeah, you got that yummy, yum
+                <br>
+                That yummy, yum
+                <br>
+                That yummy, yummy</p>
+        </section>
+
+
+
+
+        <!--======= FIFTH =======-->
+        <section class="song">
+            <h2 class="list">5.</h2>
+            <h2>Graveyard</h2>
+            <h4>by Halsey</h4>
+
+            <div id="lyd">
+                <audio id="myaudio">
+                    <source src="media/Dua%20Lipa%20-%20Don't%20Start%20Now.mp3" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <button>&#x1f50a; Click and listen </button>
+            </div>
+
+            <p>It's crazy when
+                <br>
+                The thing you love the most is the detriment
+                <br>
+                Let that sink in
+                <br>
+                You can think again
+                <br>
+                When the hand you wanna hold is a weapon and
+                <br>
+                You're nothin' but skin</p>
+        </section>
+
+
+
+
+    </main>
+
+
+    <script src="js/youtube.js"></script>
+    <script src="js/audio.js"></script>
+</body></html>
